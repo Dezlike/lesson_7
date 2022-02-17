@@ -44,21 +44,18 @@ div {
 	font-size: 50px;
 	background: rgba(102, 165, 175, 0.843) url("../img/11.jpg") 0 0 / cover;
 	background-repeat: no-repeat;
-	height: 600px;
 	background-size: auto 100%;
 	font-weight: 700;
 }
 .block4 {
 	color: rgb(255, 255, 255);
 	line-height: 120%;
-	font-size: 50px;
-	height: 500px;
+	font-size: 30px;
 	background: rgba(102, 165, 175, 0.843) url("../img/11.jpg") 0 0/ 100px repeat-x;
 	
 }
 .block5 {
 	background: url("../img/3b.jpg") right/25% no-repeat, url("../img/2.jpg") left/300px no-repeat, url("../img/3b.jpg") 50%/cover no-repeat;
-	height: 500px;
 }
 .block6 {
 	background: url("../img/4.jpg") 0 0/100% no-repeat local, radial-gradient(circle, rgba(20, 7, 1, 0.7) 3%, rgba(3, 76, 11, 0.7) 82%) ;
@@ -70,10 +67,8 @@ div {
 .block7 {
 	background: url("../img/2.jpg") 0 0/100% no-repeat fixed;
 	text-shadow: 2px 2px 1px  rgb(255, 255, 255);
-	max-height: 500px; 
-	
+	max-height: 500px;
 	overflow: auto;
-
 }
 
 
