@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Marck+Script&family=Playfair+Display:ital,wght@1,400;1,700&display=swap");
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	font-family: Playfair Display;
+	background-color: rgba(100, 148, 237, 0.619);
+}
+.header,
+.footer {
+	background-color: rgb(0, 0, 0);
+	color: rgb(255, 255, 255);
+	text-align: center;
+	padding: 20px 0;
+	font-size: 60px;
+	text-shadow: 3px 3px 2px rgb(255, 255, 255);
+	border-bottom: 15px solid rgba(44, 209, 19, 0.898);
+	border-top: 15px solid rgba(253, 103, 3, 0.966);
+}
+div {
+	
+	font-size: 33px;
+}
+.main {
+	background-image: url("../img/1.png");
+	background-size: 150px;
+}
+.block1 {
+	color: rgb(40, 58, 177);
+	text-shadow: 3px 3px 5px rgb(23, 143, 218);
+	background: rgb(0, 0, 0);
+	background: linear-gradient(90deg, rgba(0, 0, 0, 1) 10%, rgba(253, 29, 29, 1) 52%, rgba(250, 255, 1, 1) 100%);
+}
+.block2 {
+	width: 50%;
+	border-radius: 25px;
+	margin: 0px auto;
+	padding: 0 35px;
+	background: rgb(174, 238, 191);
+	background: radial-gradient(circle, rgba(174, 238, 191, 0.7) 3%, rgba(197, 148, 233, 0.7) 82%);
+}
+
+.block3 {
+	color: rgb(0, 0, 0);
+	font-size: 50px;
+	background: rgba(102, 165, 175, 0.843) url("../img/11.jpg") 0 0 / cover;
+	background-repeat: no-repeat;
+	height: 600px;
+	background-size: auto 100%;
+	font-weight: 700;
+}
+.block4 {
+	color: rgb(255, 255, 255);
+	line-height: 120%;
+	font-size: 50px;
+	height: 500px;
+	background: rgba(102, 165, 175, 0.843) url("../img/11.jpg") 0 0/ 100px repeat-x;
+	
+}
+.block5 {
+	background: url("../img/3b.jpg") right/25% no-repeat, url("../img/2.jpg") left/300px no-repeat, url("../img/3b.jpg") 50%/cover no-repeat;
+	height: 500px;
+}
+.block6 {
+	background: url("../img/4.jpg") 0 0/100% no-repeat local, radial-gradient(circle, rgba(20, 7, 1, 0.7) 3%, rgba(3, 76, 11, 0.7) 82%) ;
+	text-shadow: 2px 2px 1px  rgb(255, 255, 255);
+	max-height: 500px; 
+	overflow: auto;
+	border: 20px solid rgba(255, 0, 0, 0.517);
+}
+.block7 {
+	background: url("../img/2.jpg") 0 0/100% no-repeat fixed;
+	text-shadow: 2px 2px 1px  rgb(255, 255, 255);
+	max-height: 500px; 
+	
+	overflow: auto;
+
+}
+
+
